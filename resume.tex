@@ -1,0 +1,114 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc} % For input encoding
+\usepackage{geometry} % For page margins
+\geometry{a4paper, margin=0.75in} % Set paper size and margins
+\usepackage{titlesec} % For section title formatting
+\usepackage{enumitem} % For itemized list formatting
+\usepackage{hyperref} % For hyperlinks
+
+% Formatting
+\setlist{noitemsep} % Removes item separation
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule] % Section title format
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip} % Section title spacing
+
+% Begin document
+\begin{document}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large OWEN RITZAU}\\[2pt] % Name
+Dayville, CT | 
+\href{mailto:oritzau2021@gmail.com}{oritzau2021@gmail.com} | 
+(401)-603-9854 | 
+\href{https://github.com/oritzau}{Github} |
+\href{https://www.linkedin.com/in/owen-ritzau-169595239}{linkedin.com/oritzau}
+
+\textbf{SUMMARY:}
+
+As a driven student, I have spent hundreds of hours exploring the fascinating world of software design and computer science. I love to learn new technologies and help newcomers to the field. I work best in small teams, in an environment where I can both learn and teach.
+\end{center}
+
+% Education Section
+\section*{EDUCATION}
+\noindent
+\textbf{Skidmore College}, Saratoga Springs, New York 
+% University name and location
+\hfill Enrolled: September 2021 | Expected: June 2025\\ 
+B.A. Computer Science \hfill Major GPA: 4.0 % Degree and GPA
+
+% Experience Section
+\section*{EXPERIENCE}
+\noindent
+\textbf{Skidmore College} \hfill Saratoga Springs, NY \\ % Project or organization name and location
+\textit{System Admin Assistant} \hfill September 2023 – Current % Position and duration
+\begin{itemize}
+    \item Wrote, documented, and debugged various scripts to automate 
+        management of large distributed system
+	\item Built and managed a server for deep learning projects on campus
+	\item Aided in resolving critical bugs and issues that interrupted 
+		student workflow
+\end{itemize}
+
+\noindent
+\textbf{TheCoderSchool} \hfill Glastonbury, CT \\ % Company name and location
+\textit{Code Coach} \hfill June 2023 - September 2023 % Position and duration
+\begin{itemize}
+    \item Worked with individual students ages 10 to 18 guiding them through
+        project creation in languages including Java, Python, and Javascript
+    \item Coached groups of 10-12 students in week long camps building 
+        knowledge on topics including application design, virtual reality,
+        3D printing, and more
+\end{itemize}
+
+% Additional Experience or Volunteer Work
+
+% Club or Organization Experience
+
+% Projects Section
+\section*{PROJECTS}
+\noindent
+\textbf{Skidmarket} \hfill June 2023 - September 2023
+\begin{itemize}
+    \item Worked in two-man team developing an ecommerce app in Django 
+    \item Used database modeling to create a scalable application 
+    \item Implemented custom security and payment methods 
+\end{itemize}
+% Additional Project
+\noindent
+\textbf{Chess-Term} % Project name and location
+\href{https://github.com/oritzau/chess-Term}{(Link)}
+\hfill April 2023 - June 2023 % Project link and duration
+\begin{itemize}    
+    \item Created a text-based chess application with Python3.10 
+    \item Created extensible features to allow for custom piece implementation  
+    \item Optimized application for machines without full desktop environment 
+\end{itemize}
+
+\noindent
+\textbf{Poly-Run} % Project name and location
+\href{https://github.com/oritzau/poly-run/tree/master}{(Link)}
+\hfill March 2023 - Current % Project link and duration
+\begin{itemize}
+    \item Created a script that reacts to file types, capable of executing 
+        Python, Java, Rust, C, C++, and NodeJS files. 
+    \item Built a lightweight binary crate in Rust for speed and safety 
+    \item Created and merged a library crate for extensibility and cross 
+        platform support without interruptions to functionality 
+\end{itemize}
+
+% Skills Section
+\section*{SKILLS}
+\begin{itemize}
+    \item \textbf{Backend:} C, Rust, Python (Django), Java
+    \item \textbf{Frontend:} Javascript, HTML + CSS 
+    \item \textbf{Tools:} Git, Github, Sed, Awk
+    \item \textbf{Linux:} Ubuntu, RedHat, Arch
+\end{itemize}
+
+\end{document}
